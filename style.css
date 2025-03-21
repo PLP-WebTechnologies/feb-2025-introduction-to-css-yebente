@@ -1,0 +1,138 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;700&display=swap');
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Element selector */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+/* ID selector */
+#main-title {
+    font-family: 'Poppins', sans-serif;
+    color: #2c3e50;
+    text-align: center;
+    margin: 30px 0 10px 0;
+    font-size: 2.5em;
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+#subtitle {
+    font-family: 'Poppins', sans-serif;
+    color: #3498db;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 0 0 30px 0;
+    font-style: italic;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 20px;
+}
+
+/* Class selector */
+.navigation {
+    background-color: #3498db;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.navigation a:hover {
+    border-color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+}
+
+/* Styling sections */
+.section-title {
+    color: #2c3e50;
+    margin: 20px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.content-text {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Image styling */
+.image-container {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.featured-image {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #3498db;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.featured-image:hover {
+    transform: scale(1.02);
+}
+
+.image-caption {
+    margin-top: 10px;
+    color: #666;
+    font-style: italic;
+}
+
+/* Contact box styling */
+.contact-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #3498db;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.contact-box strong {
+    font-size: 1.2em;
+    color: #2c3e50;
+}
+
+.contact-box em {
+    display: block;
+    color: #3498db;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    border-top: 2px solid #3498db;
+    color: #666;
+} 
